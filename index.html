@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<form action="" method="post" enctype="multipart/form-data">
+
+    <body>
+        <fieldset>
+            <legend>Cadastro</legend>
+            <label>Nome
+                <div>
+                    <input name="nome" type="text" placeholder="Digite seu nome completo" autocomplete="nome" autofocus
+                        required>
+                </div>
+            </label> <br>
+
+            <label>E-mail
+                <div>
+                    <input name="e-mail" placeholder="Digite seu e-mail" type="email" required>
+                </div>
+            </label> <br>
+
+            <label>Idade
+                <div>
+                    <input name="idade" placeholder="Digite sua idade" type="number" min="12" required>
+                </div>
+            </label> <br>
+
+            <label>Data de nascimento
+                <div>
+                    <input name="idade" placeholder="dd/mm/yyyy" type="date" required>
+                </div>
+            </label> <br>
+
+            <label>Onde você possui conta?
+                <div>
+                    <input type="checkbox" name="Instagram">Instagram
+                    <input type="checkbox" name="Facebook">Facebook
+                    <input type="checkbox" name="YouTube">YouTube
+                </div>
+            </label> <br>
+
+            <label>Sexo
+                <div>
+                    <input type="radio" name="escolha" value="masc">Masculino
+                    <input type="radio" name="escolha" value="fem">Feminino
+                    <input type="radio" name="escolha" value="nãobi">Não-binário
+                    <input type="radio" name="escolha" value="cisg">Cisgênero
+                    <input type="radio" name="escolha" value="trans">Transgênero
+                </div>
+            </label> <br>
+
+            <label>Estado civil
+                <div>
+                    <input type="radio" name="escolha-2" value="solt">Solteiro
+                    <input type="radio" name="escolha-2" value="cas">Casado
+                    <input type="radio" name="escolha-2" value="divo">Divorciado
+                    <input type="radio" name="escolha-2" value="viu">Viúvo
+                    <input type="radio" name="escolha-2" value="uniest">União estável
+                    <input type="radio" name="escolha-2" value="out">Outros
+                </div>
+            </label> <br>
+
+            <label>Cor dos olhos <input name=cor-dos-olhos type="color"></label> <br>
+
+            <br><label>Biografia
+                <div>
+                    <textarea name="biografia" placeholder="Conte-nos um pouco sobre você" required></textarea>
+                </div>
+            </label> <br>
+
+            <label>Foto do perfil
+                <div>
+                    <input name="foto" type="file" accept="image/*" required>
+                </div>
+            </label> <br>
+
+            <label>Telefone
+                <div>
+                    <input name="telefone" placeholder="Digite seu telefone" type="tel" required>
+                </div>
+            </label> <br>
+
+            <label>Link de perfil do Facebook
+                <div>
+                    <input name="Facebook" type="URL" placeholder="Digite uma URL válida" required>
+
+                </div>
+            </label> <br>
+
+            <label>Senha
+                <div>
+                    <input name="senha" placeholder="Digite sua senha" type="password" minlength="6" maxlength="8"
+                        required>
+                </div>
+            </label> <br>
+
+            <button name="limpar" type="reset" value="delete">Limpar</button>
+            <button name="enviar" type="submit" value="login">Enviar dados</button>
+        </fieldset>
+    </body>
+</form>
+
+</html>
