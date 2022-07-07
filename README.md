@@ -9,4 +9,7 @@
 - Buttons
 <br>
 <h2>O formulário</h2>
-<img>
+<img src="https://github.com/sherman-wsp/form-git/blob/master/img/formulario.png?raw=true" alt="img-form">
+<br>
+<h2>Tecnologia utilizada</h2>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="html-logo">
